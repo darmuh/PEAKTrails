@@ -1,7 +1,8 @@
 # PEAKTrails
 
-Client-side mod that adds real-time trails for all players! Trail settings and other options are provided via a configuration file.  
-Configurations can be updated while in-game using [ModConfig](https://thunderstore.io/c/peak/p/PEAKModding/ModConfig/)  
+- Client-sided mod that adds real-time trails for all players!  
+- Trail settings and other options are provided via a configuration file.  
+- Configurations can be updated while in-game using [ModConfig](https://thunderstore.io/c/peak/p/PEAKModding/ModConfig/)  
 
 ![cinematic down](https://github.com/darmuh/PEAKTrails/blob/main/images/trails_cinema_down_cropped.webp?raw=true)
 
@@ -14,7 +15,7 @@ Configurations can be updated while in-game using [ModConfig](https://thundersto
 ![colors image](https://github.com/darmuh/PEAKTrails/blob/main/images/colors.png?raw=true)
 
 ## Visibility Controls
-- If you'd like the ability to toggle the visibility of all trails with a keybind, enable the Add Visibility Control configuration item!
+- If you'd like the ability to toggle the visibility of all trails with a keybind, enable the ``Add Visibility Control`` configuration item!
 - When the ``Visibility Toggle Key`` is pressed, trails will be shown or hidden depending on their current status.
 - The ``Visibility Press Delay`` configuration item determines how long after a key press the game will wait until listening for the next key press.  
 
