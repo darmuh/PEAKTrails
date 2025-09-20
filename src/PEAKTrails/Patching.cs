@@ -50,7 +50,7 @@ internal class Patching
     [HarmonyPatch(typeof(Character), nameof(Character.Update))]
     internal class PlayerVisualUpdatePatch
     {
-        internal static bool ShowTrail = true;
+        internal static bool ShowTrail = false;
         internal static float TimeSinceLastChange = 0f;
         internal static float UpdateDelay = 0f;
 
