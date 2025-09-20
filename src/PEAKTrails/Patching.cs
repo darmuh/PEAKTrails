@@ -1,10 +1,8 @@
 ﻿using HarmonyLib;
 using pworld.Scripts.Extensions;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using static PEAKTrails.Plugin;
 
 namespace PEAKTrails;
@@ -31,7 +29,7 @@ internal class Patching
         PlayDeadEmote,
         ShrugEmote,
         CrossedArmsEmote,
-        DanceEmote,
+        DanceEmote
     }
 
     internal enum TrailItem
